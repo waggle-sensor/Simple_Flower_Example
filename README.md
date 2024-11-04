@@ -1,5 +1,25 @@
 # Simple Flower Example
 
+
+
+
+## Installation
+
+Clone the Repository
+```
+git clone https://github.com/waggle-sensor/Simple_Flower_Example.git
+cd Simple_Flower_Example
+```
+
+Create a Virtual Environment (Optional)
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+Install Dependencies
+
+`pip install torch torchvision flwr datasets numpy`
+
 There are two files `server.py` and `client.py`.
 
 ## Configuration
